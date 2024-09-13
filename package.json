@@ -1,6 +1,7 @@
 {
   "name": "symlink-issue",
   "packageManager": "yarn@4.4.1",
+  "private": true,
   "type": "module",
   "workspaces": [
     "packages/*"

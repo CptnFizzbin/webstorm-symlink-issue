@@ -1,0 +1,14 @@
+{
+  "name": "@internal/package-a",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "start": "vite-node src/index.ts"
+  },
+  "dependencies": {
+    "@internal/package-b": "workspace:^"
+  }
+}

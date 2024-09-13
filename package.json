@@ -1,4 +1,16 @@
 {
   "name": "symlink-issue",
-  "packageManager": "yarn@4.2.2"
+  "packageManager": "yarn@4.4.1",
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "yarn --cwd packages/package-a start"
+  },
+  "dependencies": {
+    "typescript": "^5.6.2",
+    "vite": "^5.4.5",
+    "vite-node": "^2.1.0"
+  }
 }
